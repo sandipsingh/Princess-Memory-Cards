@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MemoryCardsActivity!</string>
+    <string name="app_name">Princess  Memory Cards</string>
+    <string name="text_name">Congrates</string>
+     <string name="text_help">  Turn over pairs of matching cards, tap to flip two cards, as the match happens, they get removed from the screen.Try to get all cards match in minimum moves and proceed to next level</string>
+</resources>

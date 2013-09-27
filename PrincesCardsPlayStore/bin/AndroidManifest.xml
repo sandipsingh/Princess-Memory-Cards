@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.memorycards.princess"
+    android:versionCode="19"
+    android:versionName="1.9.0"                            
+    android:installLocation="auto" >                         
+     
+       <uses-permission android:name="android.permission.INTERNET"/>
+       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+<!-- 
+       <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+       <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+       <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />       
+     -->
+    <uses-sdk android:minSdkVersion="7" />     
+    
+    <supports-screens android:resizeable="true"         
+                  android:smallScreens="true"         
+                  android:normalScreens="true"
+                  android:largeScreens="true"   
+                
+                  android:anyDensity="true"/>                           
+    
+    
+    <application
+        android:icon="@drawable/ic_launcher"                      
+        android:label="@string/app_name" >     
+        <activity
+            android:label="@string/app_name"
+            android:name=".Splash"
+             android:launchMode="singleInstance"
+        
+             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" >
+        
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />     
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:label="@string/app_name"
+            android:name=".Stars"
+             android:launchMode="singleInstance"
+        
+             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" >
+        
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />     
+            </intent-filter>
+        </activity>
+        
+            <activity android:name=".SixteenCards"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation"></activity>
+            
+              <activity android:name=".TwentyFour"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation"></activity> 
+            
+            <activity android:name=".TwentyTwo"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation"></activity>
+              
+        <activity android:name=".TwentyCard"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        
+    <activity android:name=".EighteenCard"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation"></activity>
+    
+    
+        <activity android:name=".FourteenCard"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        
+        <activity     
+            android:name="com.google.ads.AdActivity" 
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+   
+              <activity
+              android:name=".TenCard"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+              
+            <activity
+              android:name=".MemoryCard2"
+             android:screenOrientation="portrait"
+           	 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+         
+          <activity
+              android:name=".MemoryCard1"
+             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+          
+           <activity
+              android:name="com.memory.princess.Help"
+             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />     
+         
+            <activity
+              android:name=".FourCards"
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+            
+             <activity
+              android:name=".FourCards1"
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+             
+              <activity
+              android:name=".SixCards"
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+              
+               <activity
+              android:name=".SixCards1"
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+               
+                <activity
+              android:name=".EightCards"     
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+            
+                 <activity
+              android:name="com.memorycards.princess.EightCards1"
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" />
+                 
+                  <activity
+              android:name=".Help"
+             android:screenOrientation="portrait"       
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:configChanges="orientation|keyboardHidden|navigation" /> 
+             
+          
+                  <receiver android:name="com.pad.android.xappad.AdNotification" />
+                  
+                   
+    </application>
+</manifest>

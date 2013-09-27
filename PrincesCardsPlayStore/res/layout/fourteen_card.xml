@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    
+    android:layout_height="match_parent" >
+
+  <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/mylayout" android:orientation="horizontal">
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+ 
+        android:background="@drawable/top" />
+
+      <Button
+         android:id="@+id/imageView29"
+        android:layout_width="158dip"
+        android:layout_height="40dip"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border"
+        android:paddingTop="5dp"
+        android:text="Level-10"
+        android:textColor="#ffffff" />
+
+      <TextView
+          android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Moves"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/white"/>
+
+      <TextView
+          android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+         android:layout_marginRight="15dp"
+         android:layout_below="@+id/imageView3"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="00" 
+        android:paddingBottom="10dp" />
+
+      <ImageView
+           android:id="@+id/imageView2"
+    android:background="@drawable/home_lable"
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp" />
+      
+  </RelativeLayout>
+  <RelativeLayout 
+      android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/mylayout" android:layout_above="@+id/relative_home">
+    <FrameLayout android:id="@+id/frameLayout1hardMatchup"  android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+  <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/layoutJuegoMatchupHard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+     android:background="@drawable/mybackground"
+      >
+
+        <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="146dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:src="@drawable/empty" />
+  
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+           
+            
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView4"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_bck" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView5"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m1" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m2" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView8"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView9"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+         
+        </LinearLayout>
+      
+        
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+          
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m4" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView11"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m5" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView12"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView13" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+            
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m6" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView14" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView15"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+ 
+        </LinearLayout>
+     
+        
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+          
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m10" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView22" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView23"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+          
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m11" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView24"  android:layout_width="fill_parent" android:layout_height="fill_parent"  android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView25"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+            
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m12" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView26"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView27"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+  
+        </LinearLayout>
+      
+        
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+          
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m7" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView16"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView17" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m8" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView18" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView19"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m9" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView20"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/imageView21"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+     
+        </LinearLayout>
+     
+        
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0">
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m13" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/img1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/img2"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m14" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/img3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/img4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+           
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/m15" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="9.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/img5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/faq" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="center" android:id="@+id/img6"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            </RelativeLayout>
+         
+        </LinearLayout>
+    
+       
+        
+    </LinearLayout>
+
+</FrameLayout>
+
+</RelativeLayout>
+ 
+ <RelativeLayout        
+        android:id="@+id/relative_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+    
+         />
+      
+
+</RelativeLayout>

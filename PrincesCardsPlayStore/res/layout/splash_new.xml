@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+        
+        <Button
+        android:id="@+id/imageView1"
+        android:layout_width="158dip"
+        android:layout_height="40dip"
+        android:text="Level-1"
+        android:textColor="#ffffff"
+        android:background="@drawable/levelimg" 
+        android:layout_marginTop="5dip"/>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+         <ImageView
+        android:id="@+id/image_level1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="5dip"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5dip"
+        android:layout_alignTop="@+id/image_level1_3"
+        android:layout_toLeftOf="@+id/image_level1_3"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level1_1"   
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+android:layout_marginRight="8dip"
+     android:layout_marginTop="5dip"
+        android:layout_toLeftOf="@+id/image_level1_2"
+        android:src="@drawable/star" />
+        </LinearLayout>
+    </LinearLayout>
+
+     <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+         android:background="@drawable/white" /> 
+        
+     <!-- first strip ends -->
+     <!-- first strip ends -->
+    
+     <LinearLayout
+        android:id="@+id/lay2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+         
+         <Button
+        android:id="@+id/imageView2"
+        android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-2"
+        android:layout_marginTop="5dip"
+        android:paddingTop="5dp"
+       
+        android:background="@drawable/levelimg" />
+         
+           <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+               
+                 <ImageView
+        android:id="@+id/image_level2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="5dip"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image_level1_2"
+       android:layout_marginTop="5dip"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   android:layout_marginTop="5dip"
+        android:layout_alignTop="@+id/image_level2_2"
+        android:layout_marginRight="8dip"
+        android:src="@drawable/star" />
+
+           </LinearLayout>
+     </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView9"
+        android:layout_marginTop="10dp"
+         android:background="@drawable/white" />
+    <!-- second strip ends -->
+       <!-- second strip ends -->
+       
+           <LinearLayout
+        android:id="@+id/lay3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+           <Button
+        android:id="@+id/imageView3"
+     android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-3"
+        android:layout_alignParentLeft="true"
+          android:layout_marginTop="10dip"
+          android:paddingTop="5dp"
+        android:layout_below="@+id/imageView2"
+        android:background="@drawable/levelimg" />
+           
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+                
+                 <ImageView
+        android:id="@+id/image_level3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+      android:layout_marginTop="5dip"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_alignRight="@+id/image_level2_2"
+      
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image_level2_3"
+        android:layout_marginTop="5dip"
+        android:layout_marginRight="8dip"
+        android:layout_alignTop="@+id/image_level3_2"
+        android:src="@drawable/star" />
+
+            </LinearLayout>
+               
+         </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_marginTop="10dp"
+         android:background="@drawable/white" />
+    <!-- third strip ends -->
+     <!-- third strip ends -->
+       <LinearLayout
+        android:id="@+id/lay4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+           
+           <Button
+        android:id="@+id/imageView4"
+         android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-4"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView3"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:background="@drawable/levelimg" />
+           
+              <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+                  
+                <ImageView
+        android:id="@+id/image_level4_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView5"
+        android:layout_marginTop="5dip"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_alignLeft="@+id/image_level3_2"
+        android:layout_alignTop="@+id/image_level4_3"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image_level3_3"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_alignTop="@+id/image_level4_2"
+        android:src="@drawable/star" />
+
+              </LinearLayout>
+       </LinearLayout>
+     <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />
+     
+     <!-- 4th strip ends -->
+      <!-- 4th strip ends -->
+        <LinearLayout
+        android:id="@+id/lay5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+            
+            <Button
+        android:id="@+id/imageView5"
+         android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-5"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView4"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:background="@drawable/levelimg" />
+               <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+                 <ImageView
+        android:id="@+id/image_level5_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_marginTop="5dip"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level5_2"
+        android:layout_marginTop="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image_level4_2"
+        android:layout_alignTop="@+id/image_level5_3"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level5_1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image_level4_3"
+        android:layout_marginRight="8dip"
+        android:layout_alignTop="@+id/image_level5_2"
+        android:src="@drawable/star" />
+
+                  </LinearLayout>
+            
+            
+        </LinearLayout>
+      <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />
+      <!-- 5th strip ends -->
+      <!-- 5th strip ends -->
+        <LinearLayout
+        android:id="@+id/lay6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+            
+             <Button
+        android:id="@+id/imageView6"
+         android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-6"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView5"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:background="@drawable/levelimg" />
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+                    
+   <ImageView
+        android:id="@+id/image_level6_3"
+        android:layout_marginTop="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView7"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level6_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image_level5_2"
+        android:layout_marginTop="5dip"
+        android:layout_alignTop="@+id/image_level6_3"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level6_1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_level6_2"
+        android:layout_marginRight="8dip"
+        android:layout_toLeftOf="@+id/image_level6_2"
+        android:src="@drawable/star" />
+                </LinearLayout>
+        </LinearLayout>
+        <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />
+      <!-- 6th ends -->
+        <!-- 6th ends -->
+          <LinearLayout
+        android:id="@+id/lay7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                
+              <Button
+        android:id="@+id/imageView7"
+       android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-7"
+        android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginTop="10dip"
+                android:paddingTop="5dp"
+        android:background="@drawable/levelimg" />
+                  <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+                     
+    <ImageView
+        android:id="@+id/image_level7_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_above="@+id/imageView8"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level7_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_alignLeft="@+id/image_level6_2"
+        android:layout_alignTop="@+id/image_level7_3"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level7_1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/image_level6_3"
+        android:layout_marginRight="8dip"
+        android:layout_alignTop="@+id/image_level7_2"
+        android:src="@drawable/star" />
+                      
+                  </LinearLayout>
+        </LinearLayout>
+        
+          <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />
+          
+          <!-- 7th ends -->
+          <!-- 7th ends -->
+           <LinearLayout
+        android:id="@+id/lay8"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+               
+                 <Button
+        android:id="@+id/imageView8"
+         android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-8"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" />
+                 <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+                     
+                  
+    <ImageView
+        android:id="@+id/image_level8_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level8_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_alignRight="@+id/image_level7_2"
+        android:layout_alignTop="@+id/image_level8_3"
+        android:src="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/image_level8_1"
+        android:layout_marginTop="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dip"
+        android:layout_alignRight="@+id/image_level7_3"
+        android:layout_alignTop="@+id/image_level8_2"
+        android:src="@drawable/star" />
+                 </LinearLayout>
+           </LinearLayout>
+           
+              <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />
+              <!-- 8th ends -->
+              <!-- 8th ends -->
+              
+             <LinearLayout
+        android:id="@+id/lay9"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" > 
+        
+                 <Button
+        android:id="@+id/imglevel9"
+  android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-9"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" />
+                    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView9_1"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView9_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView9_3"
+                              android:layout_marginTop="5dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dip"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+             </LinearLayout> 
+             
+              <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />
+              <!-- 9th ends -->
+               <!-- 9th ends -->
+               
+          <LinearLayout
+        android:id="@+id/lay10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                      <Button
+        android:id="@+id/imglevel10"
+          android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-10" android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" /> 
+        
+                       <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView10_1"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView10_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView10_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dip"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                    
+          </LinearLayout>    
+           <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" />  
+        <!-- 10th ends -->
+         <!-- 10th ends -->
+         <LinearLayout
+        android:id="@+id/lay11"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                      <Button
+        android:id="@+id/imglevel11"
+       android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-11"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" /> 
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView11_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView11_2"
+                              android:layout_marginTop="5dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView11_3"
+                              android:layout_marginTop="5dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="8dip"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                      
+        </LinearLayout>
+           <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" /> 
+        <!-- 11th ends -->
+         <!-- 11th ends --> 
+         
+                <LinearLayout
+        android:id="@+id/lay12"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                      <Button
+        android:id="@+id/imglevel12"
+        android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-12"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" /> 
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView12_1"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView12_2"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView12_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_marginRight="8dip"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                      
+        </LinearLayout>
+           <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" /> 
+         <!-- 12th ends -->
+         <!-- 12th ends --> 
+            <LinearLayout
+        android:id="@+id/lay13"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                      <Button
+        android:id="@+id/imglevel13"
+         android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-13"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" /> 
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView13_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView13_2"
+                              android:layout_marginTop="5dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView13_3"
+                            android:layout_marginRight="8dip"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                      
+        </LinearLayout>
+           <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" /> 
+           <!-- 13th ends -->
+         <!-- 13th ends --> 
+         
+           <LinearLayout
+        android:id="@+id/lay14"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                      <Button
+        android:id="@+id/imglevel14"
+        android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-14"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" /> 
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView14_1"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView14_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView14_3"
+                            android:layout_width="wrap_content"
+                            android:layout_marginRight="8dip"
+                              android:layout_marginTop="5dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                      
+        </LinearLayout>
+           <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"  
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white" /> 
+        
+            <!-- 14th ends -->
+         <!-- 14th ends --> 
+                    <LinearLayout
+        android:id="@+id/lay15"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+                      <Button
+        android:id="@+id/imglevel15"
+         android:layout_width="158dip"
+        android:layout_height="40dip"
+         android:textColor="#ffffff"
+        android:text="Level-15"
+        android:layout_alignParentLeft="true"
+       android:layout_marginTop="10dip"
+       android:paddingTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/levelimg" /> 
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView15_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:src="@drawable/star" />
+                         <ImageView
+                            android:id="@+id/imageView15_2"
+                              android:layout_marginTop="5dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                           <ImageView
+                            android:id="@+id/imageView15_3"
+                            android:layout_width="wrap_content"
+                              android:layout_marginTop="5dip"
+                            android:layout_marginRight="8dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star" />
+                    </LinearLayout>
+                      
+        </LinearLayout>
+         
+           <!-- 15th ends -->
+         <!-- 15th ends --> 
+         
+                           
+</LinearLayout>
+</ScrollView>
